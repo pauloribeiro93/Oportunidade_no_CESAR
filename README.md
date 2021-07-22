@@ -1,5 +1,6 @@
  # <img src="https://www.cesar.school/wp-content/uploads/2019/09/marca_cesar_school-152x120.png"/> 
 ![fluxo de trabalho de exemplo](https://github.com/pauloribeiro93/Oportunidade_no_CESAR/actions/workflows/main.yml/badge.svg)
+![example branch parameter](https://github.com/pauloribeiro93/Oportunidade_no_CESAR/actions/workflows/main.yml/badge.svg?branch=main)
 
 ### 🛠️ Ferramentas Utilizadas
 
