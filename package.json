@@ -1,0 +1,17 @@
+{
+  "name": "cesar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
