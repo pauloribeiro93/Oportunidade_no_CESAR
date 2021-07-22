@@ -47,9 +47,9 @@ npm i
   3. Fazer scroll até o final da página;
   
   4. Imprimir:
-      a. O título de todos os tópicos fechados (são os que tem um cadeado ao lado esquerdo do título) ;
-      b. Quantidade de itens de cada categoria e dos que não possui categoria (termo logo abaixo do título);
-      c. O título do tópico que contém o maior número de views;
+      <p>a. O título de todos os tópicos fechados (são os que tem um cadeado ao lado esquerdo do título)/<p> 
+      <p> b. Quantidade de itens de cada categoria e dos que não possui categoria (termo logo abaixo do título)</p>
+      <p>c. O título do tópico que contém o maior número de views</p>
       
 ##### :memo: Fluxo do cenário de "Atividade de Automação 2":
   
@@ -57,13 +57,16 @@ npm i
   2. Clicar a opção “Blog”
   3. Ir para a segunda página da lista de posts
   4. Ainda na página de lista, capture as seguintes informações do segundo post da página:
-      a. Imprimir título
-      b. Imprimir data de publicação
+      <p>a. Imprimir título</p>
+      <p>b. Imprimir data de publicação</p>
+      
   5. Acessar o terceiro post da página: 
-      a. Imprimir título
-      b. Imprimir autor
+      <p>a. Imprimir título</p>
+      <p>b. Imprimir autor</p>
+      
   6. Ir até o final da página:
-      a. Imprimir endereço do cesar school
+      <p>a. Imprimir endereço do cesar school</p>
+      
 
 ## ⚙️ Executando os testes
 
