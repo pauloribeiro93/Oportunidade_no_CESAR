@@ -72,7 +72,16 @@ npm run cy:open
 ``````
 
 ##### Visualização do Teste:
-  
+
+##### Atividade de Automação 1
+
+<img src="https://github.com/pauloribeiro93/Oportunidade_no_CESAR/blob/main/cypress/gifs/discourse.spec.js.gif"/> 
+
+
+##### Atividade de Automação 2
+
+<img src="https://github.com/pauloribeiro93/Oportunidade_no_CESAR/blob/main/cypress/gifs/cesarSchool.spec.js.gif"/> 
+
   
 ##### Para gerar o relatorio use os comandos abaixo: 
 
@@ -81,6 +90,7 @@ npm run report:merge
 npm run report:mocha
 ``````
 
+<img src="https://github.com/pauloribeiro93/Oportunidade_no_CESAR/blob/main/cypress/gifs/Captura%20de%20tela%202021-07-22%20165823.png"/> 
 
 
 
