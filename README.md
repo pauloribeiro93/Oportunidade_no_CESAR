@@ -1,4 +1,4 @@
-## "Oportunidade_no_CESAR" 
+## Oportunidade_no_CESAR
 
 
 ### 🛠️ Ferramentas Utilizadas
