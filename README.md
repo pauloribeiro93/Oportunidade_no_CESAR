@@ -9,6 +9,7 @@
 ### :package: Packages 
 
 - cypress: "^7.7.0",
+- cypress-xpath: "^1.6.2"
 - cypress-multi-reporters: "^1.5.0",
 - mocha: "^9.0.2",
 - mochawesome: "^6.2.2",
