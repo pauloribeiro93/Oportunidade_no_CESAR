@@ -4,8 +4,9 @@ node_modules/
 #Relatrios Mocha
 mochawesome-report
 
-#Videos
+#Videos e screenshots
 cypress/videos
+cypress/screenshots
 
 #Outros
 .DS_Store
