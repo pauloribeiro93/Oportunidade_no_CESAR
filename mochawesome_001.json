@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-22T18:20:12.331Z",
+    "end": "2021-07-22T18:20:44.683Z",
+    "duration": 32352,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c875c7b6-bd8d-4d87-82d8-401cbfbd270b",
+      "title": "",
+      "fullFile": "cypress/integration/discourse.spec.js",
+      "file": "cypress/integration/discourse.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "997e9ef0-f2fd-4fdf-a6f1-0a34dbdb440d",
+          "title": "Atividade de Automação 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Imprimir o título de todos os tópicos fechados",
+              "fullTitle": "Atividade de Automação 1 Imprimir o título de todos os tópicos fechados",
+              "timedOut": null,
+              "duration": 13838,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.acessaValidaDemo();\ncy.window().scrollTo('bottom').as('scroll');\ncy.wait('@message');\ncy.wait('@json');\ncy.window('@scroll');\ncy.titulosFechados();",
+              "err": {},
+              "uuid": "20d3c584-3e93-49b6-b723-56831ce786ba",
+              "parentUUID": "997e9ef0-f2fd-4fdf-a6f1-0a34dbdb440d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Imprimir quantidade de itens de cada categoria e dos que não possui categoria",
+              "fullTitle": "Atividade de Automação 1 Imprimir quantidade de itens de cada categoria e dos que não possui categoria",
+              "timedOut": null,
+              "duration": 10464,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.acessaValidaDemo();\ncy.window().scrollTo('bottom').as('scroll');\ncy.wait('@json');\ncy.wait('@message');\ncy.window('@scroll');\nlet date = [];\ncy.get('[class=\"category-name\"]').each($el => {\n  date.push($el.text());\n});\ncy.arrayCategorias(date);\ncy.get('tr.category-uncategorized').its('length').as('semCategoria');",
+              "err": {},
+              "uuid": "4d504086-5da4-4c07-a6c0-4cfd58e5bd00",
+              "parentUUID": "997e9ef0-f2fd-4fdf-a6f1-0a34dbdb440d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " Imprimir o título do tópico que contém o maior número de views;",
+              "fullTitle": "Atividade de Automação 1  Imprimir o título do tópico que contém o maior número de views;",
+              "timedOut": null,
+              "duration": 5740,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.acessaValidaDemo();\ncy.window().scrollTo('bottom').as('scroll');\ncy.wait('@json');\ncy.wait('@message');\ncy.window('@scroll');\nlet views = [];\ncy.xpath('//td[@class=\"num views \"]//span[@class=\"number\"]').each($el => {\n  views.push($el.text());\n});\ncy.maiorNumeroDeViews(views);",
+              "err": {},
+              "uuid": "c35a3798-cff2-4dbd-a2d7-4be5a57be0f2",
+              "parentUUID": "997e9ef0-f2fd-4fdf-a6f1-0a34dbdb440d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "20d3c584-3e93-49b6-b723-56831ce786ba",
+            "4d504086-5da4-4c07-a6c0-4cfd58e5bd00",
+            "c35a3798-cff2-4dbd-a2d7-4be5a57be0f2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30042,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "mochawesome-report",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
