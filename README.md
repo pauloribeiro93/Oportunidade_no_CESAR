@@ -27,7 +27,7 @@ Node.js 10 ou 12 e superior (https://nodejs.org/en/)
 
 ```
 cd "seu diretorio"
-git clone https://github.com/pauloribeiro93/Desafio-empresa-GoT---Game-of-Testers.git
+git clone https://github.com/pauloribeiro93/Oportunidade_no_CESAR.git
 
 ```
 
