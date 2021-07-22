@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "cy:open":"npx cypress open"
   },
   "keywords": [],
   "author": "",
