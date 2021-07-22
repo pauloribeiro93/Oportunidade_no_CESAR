@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2021-07-22T20:31:51.643Z",
-    "end": "2021-07-22T20:32:16.423Z",
-    "duration": 24780,
+    "start": "2021-07-22T20:56:50.209Z",
+    "end": "2021-07-22T20:57:18.484Z",
+    "duration": 28275,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "8b239e67-f320-4012-abbf-80727671b6c4",
+      "uuid": "15e839d1-3c06-4bf5-b856-a09566e55256",
       "title": "",
       "fullFile": "cypress/integration/discourse.spec.js",
       "file": "cypress/integration/discourse.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "dec0f017-bdc6-42b2-bb32-b9d337980bd7",
+          "uuid": "a20a80ff-14a5-4ff9-ad71-4141faf64a16",
           "title": "Atividade de Automação 1",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Imprimir o título de todos os tópicos fechados",
               "fullTitle": "Atividade de Automação 1 Imprimir o título de todos os tópicos fechados",
               "timedOut": null,
-              "duration": 9396,
+              "duration": 12359,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.acessaValidaDemo();\ncy.window().scrollTo('bottom').as('scroll');\ncy.wait('@message');\ncy.wait('@json');\ncy.window('@scroll');\ncy.titulosFechados();",
               "err": {},
-              "uuid": "a34d75f1-54b4-48eb-93d7-6e60c2e0315f",
-              "parentUUID": "dec0f017-bdc6-42b2-bb32-b9d337980bd7",
+              "uuid": "4225e858-d957-4333-bc2e-ba21927d06b4",
+              "parentUUID": "a20a80ff-14a5-4ff9-ad71-4141faf64a16",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Imprimir quantidade de itens de cada categoria e dos que não possui categoria",
               "fullTitle": "Atividade de Automação 1 Imprimir quantidade de itens de cada categoria e dos que não possui categoria",
               "timedOut": null,
-              "duration": 6589,
+              "duration": 7564,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "cy.acessaValidaDemo();\ncy.window().scrollTo('bottom').as('scroll');\ncy.wait('@json');\ncy.wait('@message');\ncy.window('@scroll');\nlet date = [];\ncy.get('[class=\"category-name\"]').each($el => {\n  date.push($el.text());\n});\ncy.arrayCategorias(date);\ncy.get('tr.category-uncategorized').its('length').as('semCategoria');",
               "err": {},
-              "uuid": "d1d99142-0729-45ec-8ea4-9125fd3bed06",
-              "parentUUID": "dec0f017-bdc6-42b2-bb32-b9d337980bd7",
+              "uuid": "7f1fef29-9db3-4ae7-ba9e-00b25c715306",
+              "parentUUID": "a20a80ff-14a5-4ff9-ad71-4141faf64a16",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": " Imprimir o título do tópico que contém o maior número de views;",
               "fullTitle": "Atividade de Automação 1  Imprimir o título do tópico que contém o maior número de views;",
               "timedOut": null,
-              "duration": 6494,
+              "duration": 5573,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "cy.acessaValidaDemo();\ncy.window().scrollTo('bottom').as('scroll');\ncy.wait('@json');\ncy.wait('@message');\ncy.window('@scroll');\nlet views = [];\ncy.xpath('//td[@class=\"num views \"]//span[@class=\"number\"]').each($el => {\n  views.push($el.text());\n});\ncy.maiorNumeroDeViews(views);",
               "err": {},
-              "uuid": "910fe3a4-5957-4bb8-b9a1-0efb87b0534a",
-              "parentUUID": "dec0f017-bdc6-42b2-bb32-b9d337980bd7",
+              "uuid": "8e9e051f-45ba-45f6-98ff-5f2551192e46",
+              "parentUUID": "a20a80ff-14a5-4ff9-ad71-4141faf64a16",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a34d75f1-54b4-48eb-93d7-6e60c2e0315f",
-            "d1d99142-0729-45ec-8ea4-9125fd3bed06",
-            "910fe3a4-5957-4bb8-b9a1-0efb87b0534a"
+            "4225e858-d957-4333-bc2e-ba21927d06b4",
+            "7f1fef29-9db3-4ae7-ba9e-00b25c715306",
+            "8e9e051f-45ba-45f6-98ff-5f2551192e46"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 22479,
+          "duration": 25496,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
