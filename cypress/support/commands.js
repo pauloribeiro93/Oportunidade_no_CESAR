@@ -36,7 +36,6 @@ Cypress.Commands.add('maiorNumeroDeViews', (view) => {
         var max = Math.max(...visu)
         cy.xpath(`//span[@title="this topic has been viewed ${max} times"]`).parents().then((valor) => {
             cy.wrap(valor[1]).find("span[class='link-top-line']").invoke('text').then((texto) => {
-                cy.writeFile('path/to/Maiorvisu.txt', `${texto}`)
                 cy.log(`Tópico que contém o maior número de views - ${texto}`)
             })
 

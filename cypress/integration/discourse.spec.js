@@ -9,7 +9,7 @@ beforeEach(() => {
 });
 
 context('Atividade de Automação 1', () => {
-    it.only('Imprimir o título de todos os tópicos fechados', () => {
+    it('Imprimir o título de todos os tópicos fechados', () => {
 
         cy.acessaValidaDemo()
 
@@ -25,7 +25,7 @@ context('Atividade de Automação 1', () => {
 
 
 
-    it.only('Imprimir quantidade de itens de cada categoria e dos que não possui categoria', () => {
+    it('Imprimir quantidade de itens de cada categoria e dos que não possui categoria', () => {
 
         cy.acessaValidaDemo()
 
@@ -47,7 +47,7 @@ context('Atividade de Automação 1', () => {
     });
 
 
-    it.only(' Imprimir o título do tópico que contém o maior número de views;', () => {
+    it(' Imprimir o título do tópico que contém o maior número de views;', () => {
 
         cy.acessaValidaDemo()
 
