@@ -48,19 +48,19 @@ npm i
       b. Quantidade de itens de cada categoria e dos que não possui categoria (termo logo abaixo do título);
       c. O título do tópico que contém o maior número de views;
       
-##### :memo: Fluxo do cenário de "Atividade de Automação 1":
+##### :memo: Fluxo do cenário de "Atividade de Automação 2":
   
- 1. Abrir o menu “School”
- 2. Clicar a opção “Blog”
- 3. Ir para a segunda página da lista de posts
- 4. Ainda na página de lista, capture as seguintes informações do segundo post da página:
-     a. Imprimir título
-     b. Imprimir data de publicação
- 5. Acessar o terceiro post da página: 
-     a. Imprimir título
-     b. Imprimir autor
- 6. Ir até o final da página:
-     a. Imprimir endereço do cesar school
+  1. Abrir o menu “School”
+  2. Clicar a opção “Blog”
+  3. Ir para a segunda página da lista de posts
+  4. Ainda na página de lista, capture as seguintes informações do segundo post da página:
+      a. Imprimir título
+      b. Imprimir data de publicação
+  5. Acessar o terceiro post da página: 
+      a. Imprimir título
+      b. Imprimir autor
+  6. Ir até o final da página:
+      a. Imprimir endereço do cesar school
 
 ## ⚙️ Executando os testes
 
