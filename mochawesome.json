@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-07-22T20:55:57.836Z",
-    "end": "2021-07-22T20:56:25.727Z",
-    "duration": 27891,
+    "start": "2021-07-23T16:50:27.838Z",
+    "end": "2021-07-23T16:50:50.987Z",
+    "duration": 23149,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "6bb404a6-5f88-4ee9-ab30-c246f2909eba",
+      "uuid": "d53fa0b6-4d85-450d-9cd6-f4e36ba09d1f",
       "title": "",
       "fullFile": "cypress/integration/cesarSchool.spec.js",
       "file": "cypress/integration/cesarSchool.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "56d562c6-0d20-4d9e-b403-222094a978b8",
+          "uuid": "8be25114-4fe3-4c52-bb4e-88db16a8664c",
           "title": "Atividade de Automação 2",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Capturar informações dos posts do blog",
               "fullTitle": "Atividade de Automação 2 Capturar informações dos posts do blog",
               "timedOut": null,
-              "duration": 24435,
+              "duration": 21472,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('https://www.cesar.school/');\ncy.get('.cc-ALLOW').click();\ncy.xpath(\"//span[text()='Blog']\").click({\n  force: true\n});\ncy.window().scrollTo('bottom');\ncy.get('.nav-links > :nth-child(2)').click();\ncy.url().should('include', 'page/2/');\ncy.wait('@page2');\ncy.wait('@send');\ncy.xpath(\"((//article)[2]//a)[3]\").invoke('text').then(titulo2 => {\n  cy.wrap(`Título do segundo post: ${titulo2}`);\n});\ncy.xpath(\"(//article)[2]//time[1]\").invoke('text').then(data2 => {\n  cy.wrap(`Data do segundo post: ${data2}`);\n});\ncy.xpath(\"((//article)[3]//a)[3]\").invoke('text').then(titulo3 => {\n  cy.wrap(`Título do terceito post: ${titulo3}`);\n});\ncy.xpath(\"(//span[@class='author-name'])[3]\").invoke('text').then(autor3 => {\n  cy.wrap(`Autor do terceito post: ${autor3}`);\n});\ncy.get('div.onde').invoke('text').then(endereco => {\n  cy.wrap(`Endereço do School: ${endereco}`);\n});",
               "err": {},
-              "uuid": "73a66c3f-a635-43c8-8b6c-c13ef1901888",
-              "parentUUID": "56d562c6-0d20-4d9e-b403-222094a978b8",
+              "uuid": "30824a13-72e0-4b44-b109-7105c14534c7",
+              "parentUUID": "8be25114-4fe3-4c52-bb4e-88db16a8664c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "73a66c3f-a635-43c8-8b6c-c13ef1901888"
+            "30824a13-72e0-4b44-b109-7105c14534c7"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 24435,
+          "duration": 21472,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
