@@ -8,6 +8,10 @@
 - Visual Studio Code 1.54 
 - Cmder 1.3
 
+### 	:infinity: CI/CD
+
+- GitHub Actions
+
 ### :package: Packages 
 
 - cypress: "^7.7.0",
