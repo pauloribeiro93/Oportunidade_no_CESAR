@@ -100,7 +100,16 @@ npm run report:mocha
 
 <img src="https://github.com/pauloribeiro93/Oportunidade_no_CESAR/blob/main/cypress/gifs/Captura%20de%20tela%202021-07-22%20165823.png"/> 
 
+### 	:infinity: CI/CD
 
+- GitHub Actions
+
+Toda alteração efetuada na branche main executará o teste, gerando relatório e vídeo tanto de sucesso quanto falha. Screenshot apenas no caso de falha.  
+
+``````
+Entrar na guia Actions no GitHub >> acessar CI >> Selecionar o WorkFlow recente
+``````
+<img src="https://github.com/pauloribeiro93/Oportunidade_no_CESAR/blob/main/cypress/gifs/workflow.JPG"/>
 
 ## ✒️ Autor
 
