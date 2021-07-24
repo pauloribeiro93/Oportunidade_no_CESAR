@@ -47,6 +47,21 @@ jobs:
       - run: npm run report:mocha
              
       
+      #artefatos
+      - name: Upload Screenshots
+        uses: actions/upload-artifact@v2.2.4
+        if: failure()
+        with:
+          name: screenshots
+          path: web/cypress/screenshots
+          
+      - name: Upload Videos
+        uses: actions/upload-artifact@v2.2.4
+        if: always()
+        with:
+          name: videos
+          path: web/cypress/videos
+      
       # Publicar relatorio em html
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
