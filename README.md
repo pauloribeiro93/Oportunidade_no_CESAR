@@ -104,7 +104,7 @@ npm run report:mocha
 
 - GitHub Actions
 
-Toda alteração efetuada na branche main executará o teste, gerando relatório e vídeo tanto de sucesso quanto falha. Screenshot apenas no caso de falha.  
+Toda alteração efetuada na branch main executará o teste, gerando relatório e vídeo tanto de sucesso quanto falha. Screenshot apenas no caso de falha.  
 
 ``````
 Entrar na guia Actions no GitHub >> acessar CI >> Selecionar o WorkFlow recente
