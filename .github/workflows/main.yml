@@ -61,11 +61,10 @@ jobs:
         with:
           name: videos
           path: cypress/videos
-      
-      # Publicar relatorio em html
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+          
+      - name: Relatorio
+        uses: actions/upload-artifact@v2.2.4
+        if: always()
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: mochawesome-report
+          name: report 
+          path: mochawesome-report
