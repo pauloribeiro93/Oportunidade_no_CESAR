@@ -2,7 +2,7 @@
     
     "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
     "pageLoadTimeout ":40000,
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
     "reporter":"cypress-multi-reporters",
     "reporterOptions": {
         "configFile":"reporter-config.json"
