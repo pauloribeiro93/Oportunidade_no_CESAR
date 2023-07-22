@@ -5,7 +5,7 @@ beforeEach(() => {
 
     https://www.cesar.school/blog/page/2/
     cy.intercept('**//blog/**').as('page2')
-    cy.intercept('/send**').as('send')
+     cy.intercept('/send**').as('send')
    
 
 });
